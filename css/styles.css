@@ -1,0 +1,34 @@
+:root{
+    --red: #CE1126;
+    --blue: #002868;
+}
+
+/*red rectangle*/
+.flag{
+    width: 900px;
+    height: 600px;
+    background-color: var(--red);
+    position: relative;
+}
+
+/*blue rectangle*/
+.flag > div{
+    width: 100%;
+    height: 300px;
+    background-color: var(--blue);
+    position: absolute;
+    top: 150px;
+
+}
+
+/*white circle*/
+.flag > div > div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+/*p has margins, discovered with Pesticide*/

@@ -28,7 +28,18 @@
     background-color: white;
     border-radius: 50%;
     position: relative;
-    top: 50px;
-    left: 350px;
+    top: 50px; /*(300-200)/2*/
+    left: 350px; /*450-100*/
+}
+
+p{
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
 }
 /*p has margins, discovered with Pesticide*/
+
+.flag > div > div > p{
+    color: black;
+}
